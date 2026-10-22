@@ -12,7 +12,7 @@ PyYAML==5.3.1          # CVE-2020-14343 - Arbitrary code execution
 Jinja2==2.11.2         # CVE-2020-28493 - ReDoS vulnerability
 urllib3==1.25.8        # CVE-2020-26137 - CRLF injection
 requests==2.25.0       # Uses vulnerable urllib3
-Pillow==8.0.0          # CVE-2021-25287, CVE-2021-25288 - Buffer overflow
+Pillow==13.0.0          # CVE-2021-25287, CVE-2021-25288 - Buffer overflow
 cryptography==3.3.1    # CVE-2020-36242 - Integer overflow
 paramiko==2.7.1        # CVE-2022-24302 - Race condition
 aiohttp==3.7.3         # CVE-2021-21330 - Open redirect
